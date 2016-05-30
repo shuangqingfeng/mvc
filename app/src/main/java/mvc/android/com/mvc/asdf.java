@@ -6,4 +6,8 @@ package mvc.android.com.mvc;
  * 满天星斗.我继续前进.
  */
 public class asdf {
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
