@@ -58,7 +58,7 @@ public class MainActivity extends Activity implements View.OnClickListener ,Weat
             return (T) findViewById(id);
         } catch (ClassCastException e) {
             throw new ClassCastException("id cast View Exception");
-        }
+        }                       
 
     }
 }
